@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body class="{% if site.animated %}animated fade-in-down{% endif %}">
+  <div class="site-wrap">
+    <div class="post p1 p-responsive wrap" role="main">
+      {{ content }}
+    </div>
+  </div>
+</body>
+</html>
