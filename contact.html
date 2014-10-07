@@ -8,11 +8,14 @@ permalink: /contact/
     <div>LET ME KNOW WHAT YOU THINK</div>
     <div class="py2 sm-col-12 md-col-9 lg-col-9">
       <form action="https://forms.brace.io/{{ site.email }}" method="POST" class="form-stacked form-light">
+        <label>your name</label>
+        <input type="text" name="name" class="block full-width field-light">
         <label>your email address</label>
-        <input type="text" class="block full-width field-light">
+        <input type="email" name="_replyTo" class="block full-width field-light">
         <label>penny for your thoughts</label>
         <textarea type="text" name="content" class="block full-width" rows="10"></textarea>
         <button type="submit" class="button-white">DROP ME A LINE</button>
+        <input type="hidden" name="_next" value="{{ site.baseurl }}" />
       </form>
     </div>
 </div>
