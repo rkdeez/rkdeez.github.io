@@ -4,8 +4,18 @@
 
 */
 
-body, footer .wrap {
+body, footer {
+    background-image: url('http://www.vectorss.com/wp-content/uploads/2014/05/polygon-background.jpg');
+    font-family: Arial;
+}
+
+footer .wrap {
     background-color: black;
+}
+
+footer .wrap:hover {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ1QIleYKemftBJt0T_jRC7KVvwWFKK3XgNgM2-w3DqRTUh6bd');
+    background-size: contain;
 }
 
 .splash-page {
@@ -16,12 +26,16 @@ body, footer .wrap {
     margin-top: 20px;
 }
 
+
+
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 30px;
-    height: 0; 
+    height: 0;
     overflow: hidden;
+    width: 90%;
+    margin: 40px auto;
 }
 
 .video-container iframe,
@@ -32,4 +46,29 @@ body, footer .wrap {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.narrow {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.splash-text {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer-text {
+    color: white;
+}
+
+.footer-text:hover {
+    color: red;
+    background-color: white;
+}
+
+.footer-text span {
+    margin-right: 100px;
+    margin-left: 100px;
 }
