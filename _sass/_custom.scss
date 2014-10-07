@@ -18,6 +18,10 @@ footer .wrap:hover {
     background-size: contain;
 }
 
+textarea {
+    resize: none;
+}
+
 .splash-page {
     background-color: black;
 }
@@ -71,4 +75,13 @@ footer .wrap:hover {
 .footer-text span {
     margin-right: 100px;
     margin-left: 100px;
+}
+
+.contact-me-page {
+    color: white;
+    margin: 40px;
+}
+
+.contact-me-page label {
+    font-size: 1.5rem;
 }
